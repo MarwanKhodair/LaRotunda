@@ -1,0 +1,210 @@
+::-webkit-scrollbar{
+    display: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+
+font-family: sans-serif;
+background-color: #F5F5F5;
+}
+h1{
+    font-family: 'Brush Script MT', cursive;
+}
+header{
+    position: fixed;
+    height: 12%;
+    width: 101%;
+    background-color: #FFF ;
+    margin-bottom: 55px;
+    top: 0px;
+    right:0px ; 
+}
+nav{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 60px;
+}
+a{
+    color: black;
+}
+/* Control the Home,Menu,About,Contact List */
+.contain .aboutnav ul li{
+    display: inline;
+    margin: 13px;
+    position: relative;
+    top: 35px;
+    left: 50px;
+    font-size: 1.2em;
+    font-weight: 900;
+    color: black;
+    border: 15px solid white;
+    border-radius: 30px;
+    background-color: white;
+}
+.contain .aboutnav ul li::selection{
+color: red;
+}
+/* Control The La Routnda Word */
+.logo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 520px;
+    top: 20px;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Brush Script MT', cursive;
+    color: black;
+}
+.logo::selection{
+    color: red;
+}
+.location{
+    position: relative;
+    top: 40px;
+    left: -650px;
+}
+.wordloc{
+    position: relative;
+    top:  40px ;
+    left: -645px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ---------------------------------------------------------------- */
+.Mid .burger{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    left: -500px;
+    filter: drop-shadow(20px 30px 10px black);
+}
+.wburger{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -500px;
+    top: 200px;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.Mid1 .Casserole{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 232px;
+    left: -70px;
+    filter: drop-shadow(20px 30px 10px black);
+}
+.wcasserole{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 185px;
+    left: -50px;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.Mid2 .friedchicken{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 620px;
+    right: -950px;
+    filter: drop-shadow(20px 30px 10px black);
+}
+.wfriedchicken{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    bottom: 570px;
+    right: -970px;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.Mid3 .pizza{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 500px;
+    left: -500px;
+    filter: drop-shadow(20px 30px 10px black);
+}
+.wpizza{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 440px;
+    left: -500px;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.Mid4 .grilled{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 886px;
+    left: -65px;
+    filter: drop-shadow(20px 30px 10px black);
+}
+.wgrilled{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 825px;
+    left: -70px;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.Mid5 .sweetdrink{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1268px;
+    left: 360px;
+    filter: drop-shadow(20px 30px 10px black);
+}
+.wsweetdrinks{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1212px;
+    left: 360px;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+/* ---------------------------------------------------------------- */
+
+/* makes any a(file) dosn't have underline */
+.link{
+    text-decoration: none;
+}
+.FMenu{
+text-decoration: none;
+position: relative;
+top: -1111px;
+left: 580px;
+font-size: 2.5em;
+font-weight: 700;
+font-family: Copperplate, Papyrus, fantasy;
+}
+.alink{
+    text-decoration: none;
+}
+a.alink:hover{
+text-decoration: line-through;
+}

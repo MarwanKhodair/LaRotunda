@@ -1,0 +1,85 @@
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+
+font-family: sans-serif;
+background-color: #F5F5F5;
+}
+h1{
+    font-family: 'Brush Script MT', cursive;
+}
+header{
+    position: fixed;
+    height: 12%;
+    width: 101%;
+    background-color: #FFF ;
+    margin-bottom: 55px;
+    top: 0px;
+    right:0px ; 
+}
+nav{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 60px;
+}
+a{
+    color: black;
+}
+/* Control the Home,Menu,About,Contact List */
+.contain .aboutnav ul li{
+    display: inline;
+    margin: 13px;
+    position: relative;
+    top: 35px;
+    left: 50px;
+    font-size: 1.2em;
+    font-weight: 900;
+    color: black;
+    border: 15px solid white;
+    border-radius: 30px;
+    background-color: white;
+}
+/* Control The La Routnda Word */
+.logo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 520px;
+    top: 20px;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Brush Script MT', cursive;
+    color: black;
+}
+.location{
+    position: relative;
+    top: 40px;
+    left: -650px;
+}
+.wordloc{
+    position: relative;
+    top:  40px ;
+    left: -645px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* <!-- --------------------------------------------------------------------------------------- --> */
+.wordlocaa{
+    position: relative;
+    left: 50px;
+    bottom: -130px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    font-weight: 900;
+}
+.locbox{
+    /* display: flex;
+    justify-content: center; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   position: relative;
+   bottom: -90px;
+}
